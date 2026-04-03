@@ -41,6 +41,15 @@ This will:
 2. Start the Vite dev server.
 3. **Open your default web browser** to the local URL (usually `http://localhost:5173`). You should not need to copy a link from the terminal.
 
+### Windows (Command Prompt)
+
+From the `consulting-rm` folder:
+
+- **`npm run launch`** or **`npm run dev`** — recommended.
+- Or double-click **`Start-App.cmd`** in this folder (starts the same dev server and opens the browser).
+
+**If Visual Studio opens instead of the browser:** Windows often associates **`.mjs`** files with Visual Studio. Do **not** double-click `launch.mjs`. Use **`Start-App.cmd`**, or in cmd run **`npm run launch`** / **`node launch.mjs`** (the latter runs Node explicitly from the terminal).
+
 ### Alternative
 
 ```bash
